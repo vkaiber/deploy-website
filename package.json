@@ -1,0 +1,23 @@
+{
+  "name": "deploy-website",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A self-hosted website deployment platform with a responsive dashboard.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "check-admin": "node scripts/check-admin.js",
+    "reset-admin": "node scripts/reset-admin.js",
+    "bootstrap-admin": "node scripts/bootstrap-admin.js",
+    "diagnose-cloud": "node scripts/diagnose-cloud.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "adm-zip": "0.5.16",
+    "express": "5.1.0",
+    "multer": "2.0.2",
+    "mongodb": "6.18.0"
+  }
+}

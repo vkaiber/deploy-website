@@ -1,0 +1,1 @@
+İsteğe bağlı görseller: overview.png, projects.png, deploy.png, admin.png, settings.png, logout.png. Sol menü ikonları için 24-32px PNG/WebP kullanabilirsin.
