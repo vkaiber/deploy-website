@@ -1,1 +1,0 @@
-Buraya admin.png ve uye.png dosyalarını koy. Admin: admin.png, üye: uye.png.
